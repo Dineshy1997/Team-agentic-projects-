@@ -1,0 +1,66 @@
+## AI Medical Lead Finder - India
+
+- The AI Medical Lead Finder - India is an AI-powered tool designed to identify and extract valuable medical leads from online sources. 
+- It helps businesses and professionals find relevant healthcare-related contacts based on specific search queries.
+
+
+# Features
+
+- Automated Lead Generation  
+- AI-Based Priority Classification  
+- Multi-Source Web Scraping
+- Excel Export for Lead Management
+
+
+# Technologies Used
+
+- Programming Language: Python
+- Development Environment: VS Code
+
+
+# Libraries & APIs
+
+- Google Search API (for retrieving search results)
+
+- Google Gemini API (for lead classification)
+
+- Firecrawl API (web scraping)
+
+- BeautifulSoup & Selenium (alternative for web scraping)
+
+- Spacy (for NLP-based information extraction)
+
+- Pandas (for data storage and processing)
+
+- OpenPyXL (for exporting data to Excel)
+
+
+# Workflow
+
+1. User Input: The user enters a medical-related search query and selects a category (Buyer/Seller or Job Seeking/Hiring).
+
+2. Location Extraction: The system identifies the city/state mentioned in the query.
+
+3. Search Query Formation: A structured query is created using medical-related keywords.
+
+4. Google Search API Retrieval: Fetches search results based on the query.
+
+5. Web Scraping: Extracts additional information from the search result URLs using Firecrawl, Selenium, and BeautifulSoup.
+
+6. Lead Extraction: Identifies hospitals, clinics, contact details, and relevant information using NLP.
+
+7. AI-Based Classification: Assigns a priority level (high, medium, or low) using Google Gemini AI.
+
+8. Display & Export: The results are displayed in the Streamlit interface and can be downloaded as an Excel file.
+
+
+# Deployment
+
+Currently designed for local hosting using Streamlit UI.
+
+
+# Conclusion
+
+- This agent is a powerful tool for automating the discovery of healthcare leads, making it valuable for **medical suppliers, job seekers, and recruiters**. 
+- By integrating AI-powered classification and multiple scraping techniques, the system ensures high-quality, relevant, and actionable leads.
+
